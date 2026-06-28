@@ -1,0 +1,22 @@
+.services-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 24px;
+  background-color: #ffffff;
+  border: 1px solid #e5e5e5;
+  padding: 40px;
+  border-radius: 12px;
+  margin-bottom: 60px;
+}
+
+.service-box h3 {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.service-box p {
+  font-size: 13px;
+  color: #666666;
+  line-height: 1.5;
+}

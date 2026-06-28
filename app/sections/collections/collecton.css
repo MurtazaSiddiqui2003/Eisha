@@ -1,0 +1,45 @@
+.collections-slider {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  padding-bottom: 16px;
+  margin-bottom: 60px;
+}
+
+.collections-slider::-webkit-scrollbar {
+  height: 4px;
+}
+
+.collections-slider::-webkit-scrollbar-thumb {
+  background-color: #e5e5e5;
+  border-radius: 4px;
+}
+
+.collection-card {
+  min-width: 280px;
+  flex: 1;
+  height: 200px;
+  width: 200px;
+  background-color: #eaeaea;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-end;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.collection-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(transparent, rgba(0,0,0,0.6));
+  z-index: 1;
+}
+
+.collection-name {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 18px;
+  z-index: 2;
+}
