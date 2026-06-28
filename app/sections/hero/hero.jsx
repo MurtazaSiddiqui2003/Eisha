@@ -1,6 +1,6 @@
 import Image from 'next/image'
 
-import heroImage from '../../assets/img/hero.jpg'
+import heroImage from '../../assets/img/hero1.jpeg'
 
 const Hero = () => {
     return(
