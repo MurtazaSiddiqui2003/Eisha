@@ -1,6 +1,6 @@
 .collections-slider {
   display: flex;
-  gap: 20px;
+  /*gap: 20px;*/
   overflow-x: auto;
   padding-bottom: 16px;
   margin-bottom: 60px;
@@ -16,7 +16,7 @@
 }
 
 .collection-card {
-  min-width: 280px;
+  /*min-width: 280px;*/
   flex: 1;
   height: 200px;
   width: 200px;
