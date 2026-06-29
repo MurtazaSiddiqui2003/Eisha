@@ -1,5 +1,6 @@
 .collections-slider {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   /*gap: 20px;*/
   overflow-x: auto;
   padding-bottom: 16px;
