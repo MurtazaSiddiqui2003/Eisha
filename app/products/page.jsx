@@ -4,12 +4,12 @@ import './products.css'
 const ProductsPage = () => {
   // Temporary data array for catalog items
   const mockAllProducts = [
-    { id: "p1", name: "Heavyweight Core Tee", price: "$29.00", img: "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?q=80&w=500" },
-    { id: "p2", name: "Luxury Oversized Hoodie", price: "$65.00", img: "https://images.unsplash.com/photo-1556821840-3a63f95609a7?q=80&w=500" },
-    { id: "p3", name: "Classic French Terry Crewneck", price: "$48.00", img: "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?q=80&w=500" },
-    { id: "p4", name: "Custom DTF Workwear Jacket", price: "$89.00", img: "https://images.unsplash.com/photo-1551028719-00167b16eac5?q=80&w=500" },
-    { id: "p5", name: "Premium Streetwear Blanks", price: "$24.00", img: "https://images.unsplash.com/photo-1562157873-818bc0726f68?q=80&w=500" },
-    { id: "p6", name: "Bespoke Embroidered Cap", price: "$35.00", img: "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?q=80&w=500" },
+    { id: "p1", name: "E2-001", price: "$29.00", img: "https://i.pinimg.com/736x/f7/b5/4a/f7b54ac80ad7812b34b90c3d0f227c09.jpg" },
+    { id: "p2", name: "E3-054", price: "$65.00", img: "https://i.pinimg.com/736x/33/5f/98/335f987712c0a02e277ad02ce1536cca.jpg" },
+    { id: "p3", name: "ES-004", price: "$48.00", img: "https://i.pinimg.com/736x/97/c1/54/97c154119f4563861e9067d8cd08d637.jpg" },
+    { id: "p4", name: "EL-035", price: "$89.00", img: "https://i.pinimg.com/736x/6d/e5/cc/6de5cc4189fe747caf09eaabf5aa0a13.jpg" },
+    { id: "p5", name: "E3-021", price: "$24.00", img: "https://i.pinimg.com/736x/f6/3b/c5/f63bc520c22b165af8120bf8cba20f3c.jpg" },
+    { id: "p6", name: "E2-019", price: "$35.00", img: "https://i.pinimg.com/736x/c1/8e/69/c18e69c32510f6449431a1fcb0a6f09b.jpg" },
   ];
 
   return (
