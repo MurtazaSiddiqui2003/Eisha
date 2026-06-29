@@ -17,8 +17,8 @@
 }
 
 .collection-card {
-  /*min-width: 280px;*/
-  flex: 1;
+  min-width: 280px;
+  /* flex: 1; */
   height: auto;
   width: 22%;
   background-color: #eaeaea;
