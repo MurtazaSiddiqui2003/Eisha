@@ -122,7 +122,7 @@ const ProductDetailPage = ({ params: paramsPromise }) => {
                   Supports vector layouts, high-res transparent PNGs
                 </p>
               </div>
-
+              
               {/* Dynamic rendering layout preview window */}
               {previewUrl && (
                 <div className="previewBox">
@@ -131,14 +131,11 @@ const ProductDetailPage = ({ params: paramsPromise }) => {
               )}
             </div>
           )}
-
           <button type="submit" className="addToCartBtn">
             Add Items to Shopping Cart
           </button>
-
         </form>
       </div>
-
     </div>
   );
 }

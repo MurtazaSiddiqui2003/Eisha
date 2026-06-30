@@ -8,9 +8,9 @@ import './navbar.css'
 const Navbar = () => {
 
     return (
-        <nav>
+        <nav className='navbar'>
             <div className="nav-logo">
-                <a href='/'><Image src={logo} alt="LOGO" Height='80px' Width='80px' id='logo' /></a>
+                <a href='/'><Image src={logo} alt="LOGO" Height='50px' Width='auto' id='logo' /></a>
             </div>
             <div className="nav-links">
                 <ul>
