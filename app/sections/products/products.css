@@ -32,3 +32,15 @@
     color: #666666;
     font-size: 14px;
 }
+
+@media (max-width: 900px) {
+    .product-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .product-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
