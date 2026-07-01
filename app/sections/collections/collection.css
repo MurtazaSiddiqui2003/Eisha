@@ -1,7 +1,7 @@
 .collections-slider {
-  display: grid;
-  /* justify-content: space-around; */
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  display: flex;
+  justify-content: space-around;
+  /* grid-template-columns: 1fr 1fr 1fr 1fr; */
   gap: 20px;
   overflow-x: auto;
   padding-bottom: 16px;
@@ -18,10 +18,10 @@
 }
 
 .collection-card {
-  /* min-width: 280px; */
+  min-width: 280px;
   /* flex: 1; */
+  width: 250px;
   height: 250px;
-  max-width: auto;
   background-color: #eaeaea;
   border-radius: 50%;
   position: relative;
@@ -45,16 +45,4 @@
   font-weight: 600;
   font-size: 18px;
   z-index: 2;
-}
-
-@media (max-width: 900px) {
-    .collections-slider {
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-}
-
-@media (max-width: 768px) {
-    .collections-slider {
-        grid-template-columns: 1fr 1fr;
-    }
 }
