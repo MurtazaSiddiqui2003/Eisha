@@ -33,6 +33,20 @@
   text-decoration: none;
 }
 
+@media (max-width: 900px) {
+  .collection-card {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 768px) {
+  .collection-card {
+    width: 150px;
+    height: 150px;
+  }
+}
+
 .collection-overlay {
   position: absolute;
   inset: 0;
