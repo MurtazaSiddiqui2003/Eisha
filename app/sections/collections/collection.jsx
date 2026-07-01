@@ -13,12 +13,12 @@ const CollectionSection = () => {
         <section className="collection-section">
             <div className="section-header">
                 <h2 className="section-title">Shop by Category</h2>
-                <a href="/collections" className="section-link">See All Categories</a>
+                <a href="/collection" className="section-link">See All Categories</a>
             </div>
             <div className="collections-slider">
                 {mockCollection.map((col) => (
                     <a
-                        href={`/collection`}
+                        href={`/collection/[id]`}
                         key={col.id}
                         className="collection-card"
                         style={{ backgroundImage: `url(${col.bg})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
