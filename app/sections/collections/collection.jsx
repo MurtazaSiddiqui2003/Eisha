@@ -18,7 +18,7 @@ const CollectionSection = () => {
             <div className="collections-slider">
                 {mockCollection.map((col) => (
                     <a
-                        href={`/collections`}
+                        href={`/collection`}
                         key={col.id}
                         className="collection-card"
                         style={{ backgroundImage: `url(${col.bg})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
