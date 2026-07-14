@@ -54,7 +54,7 @@ export default function RootLayout({ children }) {
         <Announcement />
         <Navbar />
         {/* Main Workspace Frame container with offset padding */}
-        <main style={{ maxWidth: "1200px", margin: 0 auto}}> 
+        <main style={{ maxWidth: "1200px", margin: "0 auto"}}> 
           {children}
         </main>
         <Footer />
