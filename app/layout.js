@@ -2,9 +2,7 @@
 // import { Geist, Geist_Mono } from "next/font/google";
 
 // // Global Components
-// import Announcement from "./components/announcement bar/announcement";
 // import Navbar from "./components/navbar/navbar";
-// import Footer from "./components/footer/footer";
 
 // // CSS
 // import "./globals.css";
@@ -29,16 +27,17 @@
 //   return (
 //     <html lang="en" className={`${geistSans.variable} ${geistMono.variable}`}>
 //       <body>
-//         <Announcement />
 //         <Navbar />
 //         <main className="main">{children}</main>
-//         <Footer />
 //         </body>
 //     </html>
 //   );
 // }
 
+import Announcement from "./components/announcement bar/announcement";
 import Navbar from "./components/navbar/navbar.jsx";
+import Footer from "./components/footer/footer";
+
 import "./globals.css"; // Your global defaults reset layout sheet
 
 export const metadata = {
@@ -51,12 +50,15 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         {/* Global Header Injection */}
-        <Navbar />
         
+        <Announcement />
+        <Navbar />
         {/* Main Workspace Frame container with offset padding */}
-        <main style={{ maxWidth: "1200px", margin: "0 auto", padding: "40px 20px" }}>
+        <main> 
           {children}
         </main>
+        <Footer />
+    
       </body>
     </html>
   );
