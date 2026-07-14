@@ -18,7 +18,7 @@ const Home = () => {
 
   return (
     <div className="homepage">
-      <Hero />
+      <Hero style={{ width: "100vw"}}/>
       <CollectionSection />
       <ProductSection />
       <ServiceSection />
