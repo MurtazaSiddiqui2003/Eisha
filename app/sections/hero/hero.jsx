@@ -1,6 +1,6 @@
 import Image from 'next/image'
 
-import './hero.css'
+// import './hero.css'
 
 import heroImage from '../../assets/img/hero16.jpeg'
 
