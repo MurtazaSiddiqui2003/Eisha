@@ -1,101 +1,97 @@
-nav {
-    width: 100vw;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 10px;
-    background-color: rgb(247, 247, 216);
-}
-
-nav ul {
-    display: flex;
-    list-style-type: none;
-}
-
-nav ul li {
-    padding: 0 20px;
-}
-
-nav ul a {
-    color: #000;
-    text-decoration: none;
-    font-size: 1rem;
-}
-
-.navbar {
+.navbar-wrapper {
   width: 100%;
-  background-color: #ffffff;
   border-bottom: 1px solid #e5e5e5;
+  background-color: #ffffff;
   position: sticky;
   top: 0;
-  left: 0;
-  z-index: 1000;
-  height: 70px;
+  z-index: 100;
 }
 
-.nav-container {
-  width: 100%;
+.navbar-container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 24px;
+  padding: 16px 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.nav-logo {
-  font-size: 18px;
-  font-weight: 700;
-  letter-spacing: 1.5px;
-  text-decoration: none;
+/* Brand Identity */
+.nav-brand {
+  font-size: 20px;
+  font-weight: 800;
+  letter-spacing: -0.5px;
   color: #111111;
+  text-decoration: none;
 }
 
-.nav-links {
+/* Middle Navigation Links */
+.nav-links-group {
   display: flex;
   gap: 32px;
 }
 
-.nav-links a {
-  text-decoration: none;
-  color: #555555;
+.nav-link {
   font-size: 14px;
   font-weight: 500;
+  color: #666666;
+  text-decoration: none;
   transition: color 0.2s ease;
 }
 
-.nav-links a:hover {
+.nav-link:hover {
   color: #111111;
 }
 
+/* Right Actions Frame (Cart Badge & Admin Portal) */
 .nav-actions {
   display: flex;
   align-items: center;
   gap: 20px;
 }
 
-.nav-cart-btn {
+.cart-icon-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
   text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  color: #111111;
+  background-color: #f5f5f5;
+  padding: 8px 16px;
+  border-radius: 20px;
+  transition: background-color 0.2s ease;
+}
+
+.cart-icon-btn:hover {
+  background-color: #e8e8e8;
+}
+
+.cart-counter-bubble {
   background-color: #111111;
   color: #ffffff;
-  padding: 8px 16px;
-  border-radius: 6px;
-  font-size: 13px;
-  font-weight: 500;
+  font-size: 11px;
+  font-weight: 700;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.nav-admin-badge {
-  text-decoration: none;
+.admin-portal-link {
+  font-size: 13px;
+  font-weight: 600;
   color: #0066cc;
-  font-size: 13px;
-  font-weight: 500;
+  text-decoration: none;
+  border: 1px solid #0066cc;
+  padding: 6px 12px;
+  border-radius: 4px;
+  transition: all 0.2s ease;
 }
 
-@media (max-width: 768px) {
-    .navbar {
-        justify-content: space-between;
-    }
-    .nav-links {
-        display: none;
-    }
-} 
+.admin-portal-link:hover {
+  background-color: #f0f7ff;
+}
